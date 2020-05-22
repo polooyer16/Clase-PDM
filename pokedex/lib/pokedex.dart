@@ -1,4 +1,6 @@
 class Pokedex {
+
+  //Leopoldo Garcia Oyervides
   List<Pokemon> pokemon;
 
   Pokedex({this.pokemon});
