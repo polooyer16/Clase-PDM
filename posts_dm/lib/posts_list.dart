@@ -5,6 +5,8 @@ import 'package:posts_dm/globales.dart';
 import 'package:posts_dm/posts.dart';
 import 'package:http/http.dart' as http;
 
+//Clase PostList StatefulWidget
+
 class PostList extends StatefulWidget {
   @override
   _PostListState createState() => _PostListState();
