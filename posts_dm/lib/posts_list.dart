@@ -13,7 +13,7 @@ class PostList extends StatefulWidget {
 class _PostListState extends State<PostList> {
   //Link para obtener los posts, el cual esta alojado en git
   String url =
-      "https://raw.githubusercontent.com/LizbethGarcia1/posts/master/posts.json";
+      "https://raw.githubusercontent.com/polooyer16/Clase-PDM/master/posts_dm/posts.json";
 
   Postss postss;
 
