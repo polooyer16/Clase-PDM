@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
 
+import 'gradient_app_bar.dart';
+
 class HomePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Flutter Design", style: TextStyle(fontFamily: 'Signatra', fontSize: 40)),
-      ),
+
       body: Stack(
         children: <Widget>[
+
+          GradientAppBar(),
+
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
