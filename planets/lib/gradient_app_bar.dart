@@ -12,11 +12,11 @@ class GradientAppBar extends StatelessWidget{
       padding: EdgeInsets.only(top: statusBarHeight),
       height: barHeight + statusBarHeight,
       decoration: new BoxDecoration(
-        color: Colors.blue,
+        color: Color(0xFF006CBD),
         gradient: LinearGradient(
           colors: [
-            const Color(0xFF3366FF),
-            const Color(0xFF00CCFF)
+            const Color(0xFF005CA1),
+            const Color(0xFF007AD5)
           ],
           begin: const FractionalOffset(0.0, 0.0),
           end: const FractionalOffset(1.0, 0.0),

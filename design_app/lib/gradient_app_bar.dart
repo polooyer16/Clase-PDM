@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class GradientAppBar extends StatelessWidget{
-  final double barHeight = 66.0;
+  final double barHeight = 60.0;
   double statusBarHeight = 0;
   @override
   Widget build(BuildContext context) {
@@ -12,11 +12,11 @@ class GradientAppBar extends StatelessWidget{
       padding: EdgeInsets.only(top: statusBarHeight),
       height: barHeight + statusBarHeight,
       decoration: new BoxDecoration(
-          color: Colors.blue,
+          color: Color(0xFF006CBD),
           gradient: LinearGradient(
               colors: [
-                const Color(0xFF3366FF),
-                const Color(0xFF00CCFF)
+                const Color(0xFF005CA1),
+                const Color(0xFF008EFA)
               ],
               begin: const FractionalOffset(0.0, 0.0),
               end: const FractionalOffset(1.0, 0.0),
@@ -24,18 +24,7 @@ class GradientAppBar extends StatelessWidget{
               tileMode: TileMode.clamp
           )
       ),
-      child: Center(
-        child: Text(
-          "Planets",
-          style: GoogleFonts.poppins(
-              textStyle: TextStyle(
-                  fontWeight: FontWeight.w600,
-                  fontSize: 36.0,
-                  color: Colors.white
-              )
-          ),
-        ),
-      ),
+
     );
   }
 
